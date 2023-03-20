@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+// @ts-nocheck
+
+    let nome = ''
+</script>
+
+<br>
+<input name="Digite o seu nome!" bind:value = {nome} class="dark:bg-gray-200">
+<br><br>
+
+
+<p>O meu nome é: {nome}</p>
