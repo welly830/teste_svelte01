@@ -6,7 +6,7 @@
 
 <br>
 <input name="Digite o seu nome!" bind:value = {nome} class="dark:bg-gray-200">
-<br><br>
+<br>
 
 
-<p>O meu nome é: {nome}</p>
+<p>O meu nome é {nome}</p>
