@@ -27,6 +27,8 @@
   },
   "type": "module",
   "dependencies": {
+    "@capacitor/cli": "^4.7.1",
+    "@capacitor/core": "^4.7.1",
     "daisyui": "^2.51.4"
   }
 }
